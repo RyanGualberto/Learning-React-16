@@ -1,4 +1,9 @@
 import React from "react"
 
-export default () =>
-        <h1>Teste</h1>
+export default props => {
+    return(
+        <div>
+            <h1>oi {props.name}</h1>
+        </div>
+    )
+}
